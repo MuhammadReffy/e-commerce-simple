@@ -632,12 +632,12 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-24 {
   width: 6rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .cursor-pointer {
