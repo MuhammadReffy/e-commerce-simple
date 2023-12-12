@@ -632,16 +632,12 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.w-full {
-  width: 100%;
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-24 {
   width: 6rem;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .cursor-pointer {
@@ -813,16 +809,6 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-@media (min-width: 640px) {
-  .sm\:w-24 {
-    width: 6rem;
-  }
-
-  .sm\:w-1\/2 {
-    width: 50%;
-  }
 }
 
 @media (min-width: 1024px) {
